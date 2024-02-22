@@ -1,6 +1,6 @@
 # Cafe DejaVu Web Site
 
-![Cafe DejaVu Project]()
+![Cafe DejaVu Project](./Img/chrome-capture-2024-2-22.gif)
 
 
 ## Technologies:
@@ -9,4 +9,4 @@
 
 ## Demo
 
-[Cafe DejaVu]()
+[Cafe DejaVu](https://meryemsenturk.github.io/Cafe-Web-Site-Boostrap/)

@@ -85,6 +85,7 @@ section#about {
   background-color: var(--primary-color) !important;
 }
 
+
 .image-container {
   position: relative;
 }
@@ -137,6 +138,7 @@ transform: scale(1.1);
 
 section#people i{
 transition: all .5s;
+color: black;
 }
 section#people i:hover{
   opacity: .5;
@@ -158,4 +160,50 @@ section#menu .container{
 
 section#menu .menu-header{
     color: var(--primary-color);
+}
+
+/*! Contact */
+
+section#contact{
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.509),
+        rgba(188, 108, 37, 1)
+    ), url(../img/slider2.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section#contact input, section#contact textarea{
+    background-color: inherit;
+}
+section#contact input:focus, section#contact textarea:focus{
+    background-color: var(--primary-color);
+}
+
+label{
+    color: white;
+    font-style: italic;
+}
+
+textarea{
+    resize: none;
+    height: 100px !important;
+}
+
+input::placeholder{
+    color: white !important;
+}
+
+.google-map{
+    filter: grayscale(100);
+    border-radius: 20px;
+}
+
+/*! Footer */
+
+footer{
+    background-color: var(--primary-color);
 }

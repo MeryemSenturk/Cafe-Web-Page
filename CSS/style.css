@@ -1,0 +1,161 @@
+:root {
+  --primary-color: #bc6c25;
+  --secondary-color: #130f40ef;
+  --white-color: #fff;
+  --section-color:#B78752;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.navbar {
+  background-color: transparent !important;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar .container{
+background-color: rgba(0, 0, 0, 0.637) !important;
+}
+.navbar-nav {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 40%;
+}
+
+.carousel-caption .btn {
+  background-color: #bc6c25;
+  border: none;
+  width: 10rem;
+  white-space: nowrap;
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-caption .btn:first-child {
+  background-color: transparent;
+}
+
+.hero {
+  position: relative;
+  z-index: 3;
+}
+.black {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.637);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.carousel-indicators {
+  gap: 0.7rem;
+}
+.carousel-indicators button {
+  background-color: var(--primary-color) !important;
+  padding: 0.1rem !important;
+  width: 3rem !important;
+}
+
+section#about {
+  background-color: var(--primary-color) !important;
+}
+
+.image-container {
+  position: relative;
+}
+.about-image-info {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(255, 166, 0, 0.596)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section#about button {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+
+
+
+
+section#people{
+background-color: var(--section-color) !important;
+}
+
+section#people .container{
+background-color: var(--secondary-color);
+}
+
+section#people .card{
+background-color: var(--primary-color);
+transition: all .5s;
+overflow: hidden;
+}
+section#people .card:hover{
+transform: scale(1.05);
+}
+
+section#people .card img{
+transition: all 0.5s;
+}
+
+section#people .card img:hover{
+transform: scale(1.1);
+}
+
+section#people i{
+transition: all .5s;
+}
+section#people i:hover{
+  opacity: .5;
+}
+
+
+/*! Menu */
+
+section#menu{
+    background-color: var(--secondary-color) !important;
+}
+section#menu button{
+    background-color: var(--secondary-color) !important;
+    margin-right: 1rem;
+}
+section#menu .container{
+    background-color: var(--primary-color) !important;
+}
+
+section#menu .menu-header{
+    color: var(--primary-color);
+}

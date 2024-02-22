@@ -1,6 +1,6 @@
-# Cafe Corner Web Site
+# Cafe DejaVu Web Site
 
-![Cafe Corner Project]()
+![Cafe DejaVu Project]()
 
 
 ## Technologies:
@@ -9,4 +9,4 @@
 
 ## Demo
 
-[Cafe Corner]()
+[Cafe DejaVu]()

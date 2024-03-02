@@ -6,7 +6,8 @@
 ## Technologies:
 - HTML
 - CSS
+- Bootrap
 
 ## Demo
 
-[Cafe DejaVu](https://meryemsenturk.github.io/Cafe-Web-Site-Boostrap/)
+[Cafe DejaVu](https://meryemsenturk.github.io/Cafe-Web-Page/)
